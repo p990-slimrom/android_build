@@ -102,7 +102,8 @@ else
     TARGET_thumb_CFLAGS :=  -mthumb \
                             -Os \
                             -fomit-frame-pointer \
-                            -fno-strict-aliasing
+                            -fno-strict-aliasing \
+                            -Wno-unused-parameter
 endif
 
 # Set FORCE_ARM_DEBUGGING to "true" in your buildspec.mk
