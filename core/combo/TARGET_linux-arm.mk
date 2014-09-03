@@ -103,7 +103,9 @@ else
                             -Os \
                             -fomit-frame-pointer \
                             -fno-strict-aliasing \
-                            -Wno-unused-parameter
+                            -Wno-unused-parameter \
+                            -Wno-unused-value \
+                            -Wno-unused-function
 endif
 
 # Set FORCE_ARM_DEBUGGING to "true" in your buildspec.mk
